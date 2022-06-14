@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment2Btn">
+
+        <!-- <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+            -->
+
+    </androidx.fragment.app.FragmentContainerView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/fragment1Btn"
+        android:background="@color/purple_500"
+        android:layout_marginStart="30dp"
+        android:text="@string/day1title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/fragment2Btn"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_500"
+        android:text="@string/day2title"
+        app:layout_constraintLeft_toRightOf="@id/fragment1Btn"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="25dp"/>
+
+  <Button
+      android:id="@+id/fragment3Btn"
+      android:layout_width="100dp"
+      android:layout_height="60dp"
+      android:layout_marginRight="30dp"
+      android:background="@color/purple_500"
+      android:text="@string/day3title"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

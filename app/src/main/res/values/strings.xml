@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EventApplication</string>
+    <!-- Strings for Day Titles -->
+    <string name="day1title">9 de Junho</string>
+    <string name="day2title">10 de Junho</string>
+    <string name="day3title">11 de Junho</string>
+    <string name="day4title">Fourth day</string>
+    <string name="day5title">Sixth day</string>
+    <!-- Strings for Day Descriptions -->
+    <string name="day1desc">14 June 2022</string>
+    <string name="day2desc">15 June 2022</string>
+    <string name="day3desc">16 June 2022</string>
+    <string name="day4desc">17 June 2022</string>
+    <string name="day5desc">18 June 2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
